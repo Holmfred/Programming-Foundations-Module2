@@ -79,22 +79,78 @@ else {
 
 var winningNumber = [1, 76, 2, 78, 16, 7];
 
+console.log(winningNumber)
+
+var item3 = winningNumber[2]
+
+console.log(item3)
+
 //Question 2
 
 var vegetables = ["rice", "potatoes", "porrige", "cake", "spinach"];
+
+vegetables.push("bananas");
+
+console.log(vegetables)
+console.log(vegetables.length);
 
 //Question 3
 
 var randomThings = ["pumpkin", false, 23, true, "tomato"];
 
+for(var i = 0; i < randomThings.length; i++) {
+    console.log(randomThings[i])
+}
+
+
 //Question 4
 
 var moreThings = [14, "cat", true, 29, "fox", true, 34, 19];
+
+for (var i =0; i < moreThings.length; i++) {
+    var typeOfItem = typeof moreThings[i]
+
+    if (typeOfItem === "number") {
+        console.log(moreThings[i])
+    }
+}
 
 //Question 5
 
 var ingredients = ["water", "flour", "toothpaste", "fish lips"];
 
+var sortedIngredients = ingredients.sort();
+
+for (var i = 0; i < sortedIngredients.length; i++) {
+    console.log(sortedIngredients[i]);
+}
+
 //Question 6
 
 var characters = ["Gob", "Michael", "George Michael", "Lindsay", "Buster", "Maeby", "Tobias", "Lucille"];
+
+for (var i = 0; i < characters.length; i++) {
+
+
+    if (i % 2 === 1) {
+        console.log(characters[i]);
+    }
+}
+
+// Lesson Task 3
+
+//Question 1
+//Question 2
+//Question 3
+//Question 4 
+//Question 5
+//Question 6
+//Question 7
+
+//Lesson Task 4
+
+//Question 1
+//Question 2
+//Question 3
+//Question 4
+//Question 5
